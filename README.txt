@@ -32,57 +32,57 @@ If you want to set the keyboard to start with windows:
 
 Greek Character Table:
 
-| Character name 	| Input 			| Upper case 	| Lower case 
+| Character name 	| Input 		| Upper case 	| Lower case 
 
 | Alpha 		| A 			| Α 		| α 
-| Beta 		| B 			| Β 		| β 
-| Gamma 	| G 			| Γ 		| γ 
+| Beta 			| B 			| Β 		| β 
+| Gamma 		| G 			| Γ 		| γ 
 | Delta 		| D 			| Δ 		| δ 
 | Epsilon 		| E 			| Ε 		| ε 
-| Digamma 	| V 			| Ϝ 		| ϝ 
-| Zeta 		| Z 			| Ζ 		| ζ 
-| Eta 		| Alt + E 			| Η 		| η 
+| Digamma 		| V 			| Ϝ 		| ϝ 
+| Zeta 			| Z 			| Ζ 		| ζ 
+| Eta 			| Alt + E 		| Η 		| η 
 | Theta 		| TH 			| Θ 		| θ 
-| Iota 		| I 			| Ι 		| ι 
+| Iota 			| I 			| Ι 		| ι 
 | Kappa 		| K 			| Κ 		| κ 
-| Lambda 	| L 			| Λ 		| λ 
-| Mu 		| M 			| Μ 		| μ 
-| Nu 		| N 			| Ν 		| ν 
-| Xi 		| KS 			| Ξ 		| ξ 
-| Omicron 	| O 			| Ο 		| ο 
-| Pi 		| P 			| Π 		| π 
-| Rho 		| R 			| Ρ 		| ρ 
-| Medial Sigma 	| S 			| Σ 		| σ 
-| Final Sigma 	| S + Space or Punctuation 	|  		| ς 
-| Upsilon 		| U or Y 			| Υ 		| υ 
-| Tau 		| T 			| Τ 		| τ 
-| Phi 		| PH or F 			| Φ 		| φ 
-| Chi 		| X or KH (ΚΗ) 		| Χ 		| χ 
-| Psi 		| PS (ΠΣ)			| Ψ 		| ψ 
+| Lambda 		| L 			| Λ 		| λ 
+| Mu 			| M 			| Μ 		| μ 
+| Nu 			| N 			| Ν 		| ν 
+| Xi 			| KS 			| Ξ 		| ξ 
+| Omicron 		| O 			| Ο 		| ο 
+| Pi 			| P 			| Π 		| π 
+| Rho 			| R 			| Ρ 		| ρ 
+| Medial Sigma 		| S 			| Σ 		| σ 
+| Final Sigma 		| S + Space or Punctuation |  		| ς 
+| Upsilon 		| U or Y 		| Υ 		| υ 
+| Tau 			| T 			| Τ 		| τ 
+| Phi 			| PH or F 		| Φ 		| φ 
+| Chi 			| X or KH (ΚΗ) 		| Χ 		| χ 
+| Psi 			| PS (ΠΣ)		| Ψ 		| ψ 
 | Omega 		| W or Alt + O 		| Ω 		| ω 
 
 	n.b. Lowercase input = Lowercase output; Uppercase input = Uppercase output
 
 Puncuation Table
 
-| Name 		| Input 	| Punctuation 
+| Name 			| Input 	| Punctuation 
 
 | Period 		| . 	| . 
 | Comma 		| , 	| , 
 | Numeral (Keraia) 	| # 	| ʹ 
-| Apostrophe 	| ' 	| ’ 
+| Apostrophe 		| ' 	| ’ 
 | Question Mark 	| ; 	| ; 
-| Ano Stigme	| : 	| · 
+| Ano Stigme		| : 	| · 
 
 Accents Table
 
-| Name 		| Input 	| Diacritic 
+| Name 			| Input 	| Diacritic 
 
 | Smooth breathing 	| ] 	|   ̓ 
 | Rough breathing 	| [ 	|   ̔ 
-| Acute accent 	| ' 	|  ́ 
-| Grave accent 	| ` 	|  ̀ 
+| Acute accent 		| ' 	|  ́ 
+| Grave accent 		| ` 	|  ̀ 
 | Circumflex accent 	| ~ 	|   ͂ 
 | Macron 		| - 	|   ̄ 
 | Iota subscript 	| | 	|   ͅ 
-| Diaeresis 	| " 	|   ̈ 
+| Diaeresis 		| " 	|   ̈ 
