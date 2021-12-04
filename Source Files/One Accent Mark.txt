@@ -1,0 +1,381 @@
+			;alpha
+		;neither
+:*?c:α'::
+:*?c:'α::
+SendEvent ά
+Return
+
+:*?c:Α'::
+:*?c:'Α::
+SendEvent Ά
+Return
+
+:*?c:α``::
+:*?c:``α::
+SendEvent ὰ
+Return
+
+:*?c:Α``::
+:*?c:``Α::
+SendEvent Ὰ
+Return
+
+
+:*?c:αι::
+:*?c:ια::
+SendEvent ᾳ
+Return
+
+:*?c:῀α::
+:*?c:α῀::
+SendEvent ᾶ
+Return
+
+:*?c:ˉα::
+:*?c:αˉ::
+SendEvent ᾱ
+Return
+		;rough
+:*?c:α῾::
+:*?c:῾α::
+SendEvent ἁ
+Return
+
+:*?c:Α῾::
+:*?c:῾Α::
+SendEvent Ἁ
+Return
+		
+		;smooth
+:*?c:α᾿::
+:*?c:᾿α::
+SendEvent ἀ
+Return
+
+:*?c:Α᾿::
+:*?c:᾿Α::
+SendEvent Ἀ
+Return
+
+			;epsilon
+		;neither
+:*?c:ε'::
+:*?c:'ε::
+SendEvent έ
+Return
+
+:*?c:Ε'::
+:*?c:'Ε::
+SendEvent Έ
+Return
+
+:*?c:ε``::
+:*?c:``ε::
+SendEvent ὲ
+Return
+
+:*?c:Ε``::
+:*?c:``Ε::
+SendEvent Ὲ
+Return
+
+
+		;rough
+:*?c:ε῾::
+:*?c:῾ε::
+SendEvent ἑ
+Return
+
+:*?c:Ε῾::
+:*?c:῾Ε::
+SendEvent Ἑ
+Return
+		;smooth
+:*?c:ε᾿::
+:*?c:᾿ε::
+SendEvent ἐ
+Return
+
+:*?c:Ε᾿::
+:*?c:᾿Ε::
+SendEvent Ἐ
+Return
+
+			;eta
+		;neither
+:*?c:η'::
+:*?c:'η::
+SendEvent ή
+Return
+
+:*?c:Η'::
+:*?c:'Η::
+SendEvent Ή
+Return
+
+:*?c:η``::
+:*?c:``η::
+SendEvent ὴ
+Return
+
+:*?c:Η``::
+:*?c:``Η::
+SendEvent Ὴ
+Return
+
+:*?c:῀η::
+:*?c:η῀::
+SendEvent ῆ
+Return
+
+:*?c:ηι::
+:*?c:ιη::
+SendEvent ῃ
+Return		
+
+		;rough
+
+:*?c:η῾::
+:*?c:῾η::
+SendEvent ἡ
+Return
+
+:*?c:Η῾::
+:*?c:῾Η::
+SendEvent Ἡ
+Return
+		;smooth
+
+:*?c:η᾿::
+:*?c:᾿η::
+SendEvent ἠ
+Return
+
+:*?c:Η᾿::
+:*?c:᾿Η::
+SendEvent Ἠ
+Return
+
+			;iota
+		;neither
+:*?c:ι'::
+:*?c:'ι::
+SendEvent ί
+Return
+
+:*?c:Ι'::
+:*?c:'Ι::
+SendEvent Ί
+Return
+
+:*?c:ι``::
+:*?c:``ι::
+SendEvent ὶ
+Return
+
+:*?c:Ι``::
+:*?c:``Ι::
+SendEvent Ὶ
+Return
+
+:*?c:῀ι::
+:*?c:ι῀::
+SendEvent ῖ
+Return
+
+:*?c:ιˉ::
+:*?c:ˉι::
+SendEvent ῑ
+Return
+
+:*?c:Ιˉ::
+:*?c:ˉΙ::
+SendEvent Ῑ
+Return
+
+:*?c:ι¨::
+:*?c:¨ι::
+SendEvent ϊ
+Return
+		;rough
+:*?c:ι῾::
+:*?c:῾ι::
+SendEvent ἱ
+Return
+
+:*?c:Ι῾::
+:*?c:῾Ι::
+SendEvent Ἱ
+Return
+		;smooth
+:*?c:ι᾿::
+:*?c:᾿ι::
+SendEvent ἰ
+Return
+
+:*?c:Ι᾿::
+:*?c:᾿Ι::
+SendEvent Ἰ
+Return
+
+			;omicron
+		;neither
+:*?c:ο'::
+:*?c:'ο::
+SendEvent ό
+Return
+
+:*?c:Ο'::
+:*?c:'Ο::
+SendEvent Ό
+Return
+
+:*?c:ο``::
+:*?c:``ο::
+SendEvent ὸ
+Return
+
+:*?c:Ο``::
+:*?c:``Ο::
+SendEvent Ὸ
+Return
+		;rough
+:*?c:ο῾::
+:*?c:῾ο::
+SendEvent ὁ
+Return
+
+:*?c:Ο῾::
+:*?c:῾Ο::
+SendEvent Ὁ
+Return
+		;smooth
+:*?c:ο᾿::
+:*?c:᾿ο::
+SendEvent ὀ
+Return
+
+:*?c:Ο᾿::
+:*?c:᾿Ο::
+SendEvent Ὀ
+Return
+
+			;rho
+		;rough
+:*?c:ρ῾::
+:*?c:῾ρ::
+SendEvent ῥ
+Return
+
+:*?c:Ρ῾::
+:*?c:῾Ρ::
+SendEvent Ῥ
+Return
+		;smooth
+:*?c:ρ᾿::
+:*?c:᾿ρ::
+SendEvent ῤ
+Return
+			;upsilon
+		;neither
+:*?c:υ'::
+:*?c:'υ::
+SendEvent ύ
+Return
+
+:*?c:Υ'::
+:*?c:'Υ::
+SendEvent Ύ
+Return
+
+:*?c:υ``::
+:*?c:``υ::
+SendEvent ὺ
+Return
+
+:*?c:Υ``::
+:*?c:``Υ::
+SendEvent Ὺ
+Return
+
+:*?c:υ῀::
+:*?c:῀υ::
+SendEvent ῦ
+Return
+
+:*?c:υˉ::
+:*?c:ˉυ::
+SendEvent ῡ
+Return
+
+:*?c:υ¨::
+:*?c:¨υ::
+SendEvent ϋ
+Return
+		;rough
+:*?c:υ῾::
+:*?c:῾υ::
+SendEvent ὑ
+Return
+
+:*?c:Υ῾::
+:*?c:῾Υ::
+SendEvent Ὑ
+Return
+		;smooth
+:*?c:υ᾿::
+:*?c:᾿υ::
+SendEvent ὐ
+Return
+			;omega
+		;neither
+:*?c:ω'::
+:*?c:'ω::
+SendEvent ώ
+Return
+
+:*?c:Ω'::
+:*?c:'Ω::
+SendEvent Ώ
+Return
+
+:*?c:ω``::
+:*?c:``ω::
+SendEvent ὼ
+Return
+
+:*?c:Ω``::
+:*?c:``Ω::
+SendEvent Ὼ
+Return
+
+:*?c:ω῀::
+:*?c:῀ω::
+SendEvent ῶ
+Return
+
+:*?c:ωι::
+:*?c:ιω::
+SendEvent ῳ
+Return
+
+		;rough
+:*?c:ω῾::
+:*?c:῾ω::
+SendEvent ὡ
+Return
+
+:*?c:Ω῾::
+:*?c:῾Ω::
+SendEvent Ὡ
+Return
+		;smooth
+:*?c:ω᾿::
+:*?c:᾿ω::
+SendEvent ὠ
+Return
+
+:*?c:Ω᾿::
+:*?c:᾿Ω::
+SendEvent Ὠ
+Return
