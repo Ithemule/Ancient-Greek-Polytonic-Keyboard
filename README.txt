@@ -2,11 +2,11 @@
 
 **This program can only be used with Windows; Linux or Mac will NOT work**
 
-{% note %}
 
-Download Link: https://github.com/Ithemule/Ancient-Greek-Polytonic-Keyboard/archive/refs/heads/main.zip
 
-{% endnote %}
+`Download Link: https://github.com/Ithemule/Ancient-Greek-Polytonic-Keyboard/archive/refs/heads/main.zip`
+
+
 
 To run the keyboard, open whichever .exe file suits you best:
 
