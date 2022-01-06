@@ -58,14 +58,14 @@ If you want to set the keyboard to start with windows:
 | Epsilon | `E` | `Ε` | `ε` |
 | Digamma | `V` | `Ϝ` | `ϝ` |
 | Zeta | `Z` | `Ζ` | `ζ` |
-| Eta | `Alt + E` | `Η` | `η` |
-| Theta | `TH` | `Θ` | `θ` |
+| Eta | `Alt-E` | `Η` | `η` |
+| Theta | `T` + `H` | `Θ` | `θ` |
 | Iota | `I` | `Ι` | `ι` |
 | Kappa | `K` | `Κ` | `κ` |
 | Lambda | `L` | `Λ` | `λ` |
 | Mu | `M` | `Μ` | `μ` |
 | Nu | `N` | `Ν` | `ν` |
-| Xi | `KS` | `Ξ` | `ξ` |
+| Xi | `K` + `S` | `Ξ` | `ξ` |
 | Omicron | `O` | `Ο` | `ο` |
 | Pi | `P` | `Π` | `π` |
 | Rho | `R` | `Ρ` | `ρ` |
@@ -73,9 +73,9 @@ If you want to set the keyboard to start with windows:
 | Final Sigma | `S` + `Space` or `Punctuation` |  | `ς` |
 | Upsilon | `U` or `Y` | `Υ` | `υ` |
 | Tau | `T` | `Τ` | `τ` |
-| Phi | `PH` or `F` | `Φ` | `φ` |
+| Phi | `P` + `H` or `F` | `Φ` | `φ` |
 | Chi | `X` or `KH` (`ΚΗ`) | `Χ` | `χ` |
-| Psi | `PS` (`ΠΣ`) | `Ψ` | `ψ` |
+| Psi | `P` + `S` (`ΠΣ`) | `Ψ` | `ψ` |
 | Omega | `W` or `Alt` + `O` | `Ω` | `ω` |
 
 	n.b. Lowercase input = Lowercase output; Uppercase input = Uppercase output
