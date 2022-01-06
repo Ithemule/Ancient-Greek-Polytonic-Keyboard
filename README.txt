@@ -4,7 +4,7 @@
 
 
 
-[Download Link](https://github.com/Ithemule/Ancient-Greek-Polytonic-Keyboard/archive/refs/heads/main.zip)
+Download Link: https://github.com/Ithemule/Ancient-Greek-Polytonic-Keyboard/archive/refs/heads/main.zip
 
 
 
