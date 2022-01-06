@@ -42,41 +42,61 @@ If you want to set the keyboard to start with windows:
 *Only* if you want to edit the keyboard, you will have to download and install [autohotkey](https://www.autohotkey.com/), make any edits on the .ahk file of your choice (change the appropriate .txt file to .ahk), then right-click it and click Compile Script
 
 - To make edits, I recommend using CTRL + H to find any replace ONLY the input key you want to change, 
- - e.g. Find ` ? `, Replace with ` ; `, do **not** check Match Case
+ - e.g. Find ` ? `, Replace with ` * `, do **not** check Match Case
    - n.b. if you set any inputs to h, you will run into difficulties typing `χ` or `φ`, 
     - if you're replacing `η`'s input, find and replace `!e`
+
+# Features
+
+### Combining Diacritics
+
+There is no one button for `rough-breathing-acute-accent`.
+Rather, you press the `rough-breathing` and `acute-accent` buttons to get your appropriate accent
+- You can type the accents in any order, as long as they are before/after you character of choice(depending on which file you chose)
+#### Example (using inputs from the tables below)
+
+> <kbd>α</kbd> + <kbd>]</kbd> + <kbd>'</kbd> will output 		`ἄ`
+
+> <kbd>α</kbd> + <kbd>'</kbd> + <kbd>]</kbd> will also output 	`ἄ`
+
+### Native Keyboard Layout
+
+[Autohotkey](https://www.autohotkey.com/) is a hotkey program, meaning it will output the keys depending on what key you input, without changing your keyboard layout.
+
+This means that your keyboard layout will not change, only what you output
+- `Γ` will always be output when you click <kbd>G</kbd>, even if you are using [Dvorak](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout) or another keyboard layout
 
 # Inputs
 ### Greek Character Table:
 
 | Character name | Input | Upper case | Lower case |
 | --- | --- | --- | --- |
-| Alpha | `A` | `Α` | `α` |
-| Beta 	| `B` | `Β` | `β` |
-| Gamma | `G` | `Γ` | `γ` |
-| Delta | `D` | `Δ` | `δ` |
-| Epsilon | `E` | `Ε` | `ε` |
-| Digamma | `V` | `Ϝ` | `ϝ` |
-| Zeta | `Z` | `Ζ` | `ζ` |
-| Eta | `Alt-E` | `Η` | `η` |
-| Theta | `T` + `H` | `Θ` | `θ` |
-| Iota | `I` | `Ι` | `ι` |
-| Kappa | `K` | `Κ` | `κ` |
-| Lambda | `L` | `Λ` | `λ` |
-| Mu | `M` | `Μ` | `μ` |
-| Nu | `N` | `Ν` | `ν` |
-| Xi | `K` + `S` | `Ξ` | `ξ` |
-| Omicron | `O` | `Ο` | `ο` |
-| Pi | `P` | `Π` | `π` |
-| Rho | `R` | `Ρ` | `ρ` |
-| Medial Sigma | `S` | `Σ` | `σ` |
-| Final Sigma | `S` + `Space` or `Punctuation` |  | `ς` |
-| Upsilon | `U` or `Y` | `Υ` | `υ` |
-| Tau | `T` | `Τ` | `τ` |
-| Phi | `P` + `H` or `F` | `Φ` | `φ` |
-| Chi | `X` or `KH` (`ΚΗ`) | `Χ` | `χ` |
-| Psi | `P` + `S` (`ΠΣ`) | `Ψ` | `ψ` |
-| Omega | `W` or `Alt` + `O` | `Ω` | `ω` |
+| Alpha | <kbd>A</kbd> | `Α` | `α` |
+| Beta 	| <kbd>B</kbd> | `Β` | `β` |
+| Gamma | <kbd>G</kbd> | `Γ` | `γ` |
+| Delta | <kbd>D</kbd> | `Δ` | `δ` |
+| Epsilon | <kbd>E</kbd> | `Ε` | `ε` |
+| Digamma | <kbd>V</kbd> | `Ϝ` | `ϝ` |
+| Zeta | <kbd>Z</kbd> | `Ζ` | `ζ` |
+| Eta | <kbd>Alt-E</kbd> | `Η` | `η` |
+| Theta | <kbd>T</kbd> + <kdb>H</kdb> | `Θ` | `θ` |
+| Iota | <kbd>I</kbd> | `Ι` | `ι` |
+| Kappa | <kbd>K</kbd> | `Κ` | `κ` |
+| Lambda | <kbd>L</kbd> | `Λ` | `λ` |
+| Mu | <kbd>M</kbd> | `Μ` | `μ` |
+| Nu | <kbd>N</kbd> | `Ν` | `ν` |
+| Xi | <kbd>K</kbd> + <kbd>S</kbd> | `Ξ` | `ξ` |
+| Omicron | <kbd>O</kbd> | `Ο` | `ο` |
+| Pi | <kbd>P</kbd> | `Π` | `π` |
+| Rho | <kbd>R</kbd> | `Ρ` | `ρ` |
+| Medial Sigma | <kbd>S</kbd> | `Σ` | `σ` |
+| Final Sigma | <kbd>S</kbd> + <kbd>Space</kbd> or `Any Punctuation` |  | `ς` |
+| Upsilon | <kbd>U</kbd> or <kbd>Y</kbd> | `Υ` | `υ` |
+| Tau | <kbd>T</kbd> | `Τ` | `τ` |
+| Phi | <kbd>P</kbd> + <kbd>H</kbd> or <kbd>F</kbd> | `Φ` | `φ` |
+| Chi | <kbd>X</kbd> or <kbd>K</kbd> + <kbd>H</kbd> (`ΚΗ`) | `Χ` | `χ` |
+| Psi | <kbd>P</kbd> + <kbd>S</kbd> (`ΠΣ`) | `Ψ` | `ψ` |
+| Omega | <kbd>W</kbd> or <kbd>Alt</kbd> + <kbd>O</kbd> | `Ω` | `ω` |
 
 	p.s. Lowercase input = Lowercase output; Uppercase input = Uppercase output
 
@@ -85,22 +105,30 @@ If you want to set the keyboard to start with windows:
 
 | Name | Input | Punctuation |
 | --- | --- | --- |
-| Period | `.` | `.` |
-| Comma | `,` | `,` |
-| Numeral (Keraia) | `#` | `ʹ` |
-| Apostrophe | `'` | `’` |
-| Question Mark | `;` | `;` |
-| Ano Stigme | `:` | `·` |
+| Period | <kbd>.</kbd> | `.` |
+| Comma | <kbd>,</kbd> | `,` |
+| Numeral (Keraia) | <kbd>#</kbd> | `ʹ` |
+| Apostrophe | <kbd>'</kbd> | `’` |
+| Question Mark | <kbd>;</kbd> | `;` |
+| Ano Stigme | <kbd>:</kbd> | `·` |
 
 ### Accents Table
 
 | Name | Input | Diacritic |
 | --- | --- | --- |
-| Smooth breathing | `]` |  ` ̓  ` |
-| Rough breathing | `[` |  ` ̔  ` |
-| Acute accent | `'` | ` ́  ` |
-| Grave accent | `` ` `` | ` ̀  ` |
-| Circumflex accent | `~` |  ` ͂  ` |
-| Macron | `-` |  ` ̄  ` |
-| Iota subscript | `\|` |  ` ͅ  ` |
-| Diaeresis | `"` |  ` ̈  ` |
+| Smooth breathing | <kbd>]</kbd> | ` ̓  ` |
+| Rough breathing | <kbd>[</kbd> | ` ̔  ` |
+| Acute accent | <kbd>'</kbd> |  ` ́  ` |
+| Grave accent | <kbd>`</kbd> |  ` ̀  ` |
+| Circumflex accent | <kbd>~</kbd> | ` ͂  ` |
+| Macron | <kbd>-</kbd> |  ` ̄  ` |
+| Iota subscript | <kbd>\|</kbd> | ` ι `  |
+| Diaeresis | <kbd>"</kbd> | ` ̈  ` |
+
+
+# Important Note
+When the files are running, they delete characters by outputting `Left-Arrow` + `Delete` rather then `Backspace`
+- Many characters use combining diacritics to form, such as `ᾱ́ `; 
+you would have to hit `Backspace` twice to delete it, but with this workaround, you only have to press `Backspace` once
+
+When you highlight text to delete, use `Delete` rather than `Backspace`, since `Backspace` will not work.
