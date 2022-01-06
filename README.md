@@ -50,7 +50,7 @@ If you want to set the keyboard to start with windows:
 ### Greek Character Table:
 
 | Character name | Input | Upper case | Lower case |
-| -------------- | ----- | ---------- | ---------- |
+| --- | --- | --- | --- |
 | Alpha | `A` | `Α` | `α` |
 | Beta 	| `B` | `Β` | `β` |
 | Gamma | `G` | `Γ` | `γ` |
@@ -82,38 +82,24 @@ If you want to set the keyboard to start with windows:
 
 ### Puncuation Table
 
-| Name 			| Input | Punctuation 
-
-
-| Period 		| `.` 	| `.` 
-
-| Comma 		| `,` 	| `,` 
-
-| Numeral (Keraia) 	| `#` 	| `ʹ` 
-
-| Apostrophe 		| `'` 	| `’` 
-
-| Question Mark 	| `;` 	| `;` 
-
-| Ano Stigme		| `:` 	| `·` 
+| Name | Input | Punctuation |
+| --- | --- | --- |
+| Period | `.` | `.` |
+| Comma | `,` | `,` |
+| Numeral (Keraia) | `#` | `ʹ` |
+| Apostrophe | `'` | `’` |
+| Question Mark | `;` | `;` |
+| Ano Stigme | `:` | `·` |
 
 ### Accents Table
 
-| Name 			| Input | Diacritic 
-
-
-| Smooth breathing 	| `]` 	|  ` ̓ `
-
-| Rough breathing 	| `[` 	|  ` ̔ `
-
-| Acute accent 		| `'` 	| ` ́ `
-
-| Grave accent 		| `` ` `` | ` ̀ `
-
-| Circumflex accent 	| `~` 	|  ` ͂ `
-
-| Macron 		| `-` 	|  ` ̄ `
-
-| Iota subscript 	| `|` 	|  ` ͅ `
-
-| Diaeresis 		| `"` 	|  ` ̈ `
+| Name | Input | Diacritic |
+| --- | --- | --- |
+| Smooth breathing | `]` |  ` ̓ ` |
+| Rough breathing | `[` |  ` ̔ ` |
+| Acute accent | `'` | ` ́ ` |
+| Grave accent | `` ` `` | ` ̀ ` |
+| Circumflex accent | `~` |  ` ͂ ` |
+| Macron | `-` |  ` ̄ ` |
+| Iota subscript | `|` |  ` ͅ ` |
+| Diaeresis | `"` |  ` ̈ ` |
