@@ -1,6 +1,6 @@
 # Ancient-Greek-Polytonic-Keyboard
 
-**This program can only be used with Windows; Linux or Mac will NOT work**
+## **`This program can only be used with Windows; Linux or Mac will NOT work`**
 
 # Installing Instructions
 
