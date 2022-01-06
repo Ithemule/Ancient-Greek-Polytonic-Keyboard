@@ -78,8 +78,9 @@ If you want to set the keyboard to start with windows:
 | Psi | `P` + `S` (`ΠΣ`) | `Ψ` | `ψ` |
 | Omega | `W` or `Alt` + `O` | `Ω` | `ω` |
 
-	n.b. Lowercase input = Lowercase output; Uppercase input = Uppercase output
+	p.s. Lowercase input = Lowercase output; Uppercase input = Uppercase output
 
+	p.p.s `η` is typed by pressing `e` while holding down `alt`
 ### Puncuation Table
 
 | Name | Input | Punctuation |
