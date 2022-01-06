@@ -39,12 +39,12 @@ If you want to set the keyboard to start with windows:
 3. Create a shortcut in the “Startup” folder to any file, folder, or app's executable file. It will open on startup the next time you boot.
 
 ## 5: Editing (Optional and Difficult)
-*Only* if you want to edit the keyboard, you will have to download and install [autohotkey](https://www.autohotkey.com/), make any edits on the .ahk file of your choice. then right-click it and click Compile Script
+*Only* if you want to edit the keyboard, you will have to download and install [autohotkey](https://www.autohotkey.com/), make any edits on the .ahk file of your choice (change the appropriate .txt file to .ahk), then right-click it and click Compile Script
 
 - To make edits, I recommend using CTRL + H to find any replace ONLY the input key you want to change, 
- - e.g. Find `[ ? ]`, Replace with `[ ; ]`, do **not** check Match Case
+ - e.g. Find ` ? `, Replace with ` ; `, do **not** check Match Case
    - n.b. if you set any inputs to h, you will run into difficulties typing `χ` or `φ`, 
-    - if you're replacing `η`'s input, find and replace `[ !e ]`
+    - if you're replacing `η`'s input, find and replace `!e`
 
 # Inputs
 ### Greek Character Table:
