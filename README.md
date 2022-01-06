@@ -95,11 +95,11 @@ If you want to set the keyboard to start with windows:
 
 | Name | Input | Diacritic |
 | --- | --- | --- |
-| Smooth breathing | `]` |  ` ̓ ` |
-| Rough breathing | `[` |  ` ̔ ` |
-| Acute accent | `'` | ` ́ ` |
-| Grave accent | `` ` `` | ` ̀ ` |
-| Circumflex accent | `~` |  ` ͂ ` |
-| Macron | `-` |  ` ̄ ` |
-| Iota subscript | `\|` |  ` ͅ ` |
-| Diaeresis | `"` |  ` ̈ ` |
+| Smooth breathing | `]` |  ` ̓  ` |
+| Rough breathing | `[` |  ` ̔  ` |
+| Acute accent | `'` | ` ́  ` |
+| Grave accent | `` ` `` | ` ̀  ` |
+| Circumflex accent | `~` |  ` ͂  ` |
+| Macron | `-` |  ` ̄  ` |
+| Iota subscript | `\|` |  ` ͅ  ` |
+| Diaeresis | `"` |  ` ̈  ` |
