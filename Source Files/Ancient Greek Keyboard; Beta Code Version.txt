@@ -78,7 +78,6 @@ Return
 SendEvent #		;Keraia + Space = #
 Return
 
-か;::SendEvent か;		;Greek Question Mark		
 
 :*?:/::
 SendEvent ´		;Acute Accent
@@ -98,7 +97,7 @@ Return
 
 
 :*?:+::
-SendEvent "		;Diaeresis
+SendEvent ¨		;Diaeresis
 Return
 
 
