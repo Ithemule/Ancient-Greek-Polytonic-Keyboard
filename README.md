@@ -101,5 +101,5 @@ If you want to set the keyboard to start with windows:
 | Grave accent | `` ` `` | ` ̀ ` |
 | Circumflex accent | `~` |  ` ͂ ` |
 | Macron | `-` |  ` ̄ ` |
-| Iota subscript | `|` |  ` ͅ ` |
+| Iota subscript | `\|` |  ` ͅ ` |
 | Diaeresis | `"` |  ` ̈ ` |
