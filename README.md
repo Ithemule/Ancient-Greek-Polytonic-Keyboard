@@ -115,7 +115,7 @@ This means that your keyboard layout will not change, only what you output
 | Numeral (Keraia) | <kbd>#</kbd> | `ʹ` |
 | Apostrophe | <kbd>'</kbd> | `’` |
 | Question Mark | <kbd>?</kbd> | `;` |
-| Ano Stigme | <kbd>:</kbd> | `·` |
+| Ano Stigme | <kbd>;</kbd> or <kbd>:</kbd> | `·` |
 
 ### Accents Table
 
