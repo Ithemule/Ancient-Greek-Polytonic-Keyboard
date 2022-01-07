@@ -1,6 +1,6 @@
 # Ancient-Greek-Polytonic-Keyboard
 
-## **`This program can only be used with Windows; Linux or Mac will NOT work`**
+## **`This program can only be used with Windows`**
 - The keyboards are built using [autohotkey](https://www.autohotkey.com/), which is Windows exclusive. You do not need to download [autohotkey](https://www.autohotkey.com/) itself to use these keyboards, _unless_ you want to edit them.
 # Installing Instructions
 
@@ -67,6 +67,13 @@ Rather, you press the `rough-breathing` and `acute-accent` buttons to get your a
 This means that your keyboard layout will not change, only what you output
 - <kbd>G</kbd> will always output `Γ`, even if you are using [Dvorak](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout) or another keyboard layout
 
+# Important Note
+<kbd>Backspace</kbd> only deletes one character at a time; to delete highlighted text, highlight and press <kbd>Delete</kbd>
+
+<kbd>Backspace</kbd> deletes characters by outputting `Left-Arrow` + `Delete`
+- Many characters use combining diacritics to form, such as `ᾱ́ `; 
+you would have to hit `Backspace` twice to delete it
+
 # Inputs
 ### Greek Character Table:
 
@@ -125,11 +132,3 @@ This means that your keyboard layout will not change, only what you output
 | Macron | <kbd>-</kbd> |  ` ̄  ` |
 | Iota subscript | <kbd>\|</kbd> | ` ι `  |
 | Diaeresis | <kbd>"</kbd> | ` ̈  ` |
-
-
-# Important Note
-When the files are running, they delete characters by outputting `Left-Arrow` + `Delete` rather then `Backspace`
-- Many characters use combining diacritics to form, such as `ᾱ́ `; 
-you would have to hit `Backspace` twice to delete it, but with this workaround, you only have to press `Backspace` once
-
-When you highlight text to delete, use `Delete` rather than `Backspace`, since `Backspace` will not work.
