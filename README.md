@@ -40,6 +40,8 @@ If you want to set the keyboard to start with windows:
 3. Create a shortcut in the “`Startup`” folder to any file, folder, or app's executable file. It will open on startup the next time you boot.
 
 ## 5: Editing (Optional and Difficult)
+- Editing is extremly difficult, and un-intuitive; I am willing to make custom edits
+
 *Only* if you want to edit the keyboard, you will have to download and install [autohotkey](https://www.autohotkey.com/), make any edits on the .ahk file of your choice (change the appropriate .txt file to .ahk), then right-click it and click `Compile Script`
 
 - To make edits, I recommend using CTRL + H to find any replace ONLY the input key you want to change, 
@@ -68,11 +70,7 @@ This means that your keyboard layout will not change, only what you output
 - <kbd>G</kbd> will always output `Γ`, even if you are using [Dvorak](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout) or another keyboard layout
 
 # Important Note
-<kbd>Backspace</kbd> only deletes one character at a time; to delete highlighted text, highlight and press <kbd>Delete</kbd>
-
-<kbd>Backspace</kbd> deletes characters by outputting `Left-Arrow` + `Delete`
-- Many characters use combining diacritics to form, such as `ᾱ́ `; 
-you would have to hit `Backspace` twice to delete it
+<kbd>Backspace</kbd> only deletes one character at a time; to delete multiple characters or words, highlight text and press <kbd>Delete</kbd>
 
 # Inputs
 ### Greek Character Table:
