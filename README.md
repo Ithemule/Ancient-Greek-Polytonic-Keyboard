@@ -10,6 +10,7 @@
 
 ## 2: Run
 To run the keyboard, open whichever .exe file suits you best:
+- I recommend and use "[Ancient Greek Keyboard; Accents After Letter.exe](https://github.com/Ithemule/Ancient-Greek-Polytonic-Keyboard/blob/main/Ancient%20Greek%20Keyboard%3B%20Accents%20After%20Letter.exe)"
 
 With "[Ancient Greek Keyboard; Accents After Letter.exe](https://github.com/Ithemule/Ancient-Greek-Polytonic-Keyboard/blob/main/Ancient%20Greek%20Keyboard%3B%20Accents%20After%20Letter.exe)", you will type the accents after the character.
 
@@ -29,9 +30,9 @@ With "[Ancient Greek Keyboard; Beta Code Version.exe](https://github.com/Ithemul
 ## 3: Activate
 It will start disabled, and you can activate or deactivate it at any time with <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd>
 
-	A window will pop-up notifying you of the activation/deactivation
+	A window will pop-up, notifying you of the activation/deactivation
 
->it is safe to leave running in the background, and the code can be seen in the [Source Files](https://github.com/Ithemule/Ancient-Greek-Polytonic-Keyboard/tree/main/Source%20Files) folder
+>It is safe to leave running in the background, and the code can be seen in the [Source Files](https://github.com/Ithemule/Ancient-Greek-Polytonic-Keyboard/tree/main/Source%20Files) folder
 
 >The keyboards can \*only\* be used with Windows.
 
@@ -123,9 +124,9 @@ This means that your keyboard layout will not change, only what you output
 | --- | --- | --- |
 | Smooth breathing | <kbd>]</kbd> | ` ̓  ` |
 | Rough breathing | <kbd>[</kbd> | ` ̔  ` |
-| Acute accent | <kbd>'</kbd> |  ` ́  ` |
-| Grave accent | <kbd>`</kbd> |  ` ̀  ` |
+| Acute accent | <kbd>'</kbd> | ` ́  ` |
+| Grave accent | <kbd>`</kbd> | ` ̀  ` |
 | Circumflex accent | <kbd>~</kbd> | ` ͂  ` |
-| Macron | <kbd>-</kbd> |  ` ̄  ` |
+| Macron | <kbd>-</kbd> | ` ̄  ` |
 | Iota subscript | <kbd>\|</kbd> | ` ι `  |
 | Diaeresis | <kbd>"</kbd> | ` ̈  ` |
