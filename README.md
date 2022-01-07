@@ -29,6 +29,8 @@ With "[Ancient Greek Keyboard; Beta Code Version.exe](https://github.com/Ithemul
 ## 3: Activate
 It will start disabled, and you can activate or deactivate it at any time with <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd>
 
+	A window will pop-up notifying you of the activation/deactivation
+
 >it is safe to leave running in the background, and the code can be seen in the [Source Files](https://github.com/Ithemule/Ancient-Greek-Polytonic-Keyboard/tree/main/Source%20Files) folder
 
 >The keyboards can \*only\* be used with Windows.
@@ -40,14 +42,13 @@ If you want to set the keyboard to start with windows:
 3. Create a shortcut in the “`Startup`” folder to any file, folder, or app's executable file. It will open on startup the next time you boot.
 
 ## 5: Editing (Optional and Difficult)
-- Editing is extremly difficult, and un-intuitive; I am willing to make custom edits
+- Editing is extremly difficult and un-intuitive; I am willing to make custom edits
 
 *Only* if you want to edit the keyboard, you will have to download and install [autohotkey](https://www.autohotkey.com/), make any edits on the .ahk file of your choice (change the appropriate .txt file to .ahk), then right-click it and click `Compile Script`
 
 - To make edits, I recommend using CTRL + H to find any replace ONLY the input key you want to change, 
  - e.g. Find ` ? `, Replace with ` * `, do **not** check Match Case
    - n.b. if you set any inputs to `h`, you will run into difficulties typing `χ` or `φ`, 
-    - if you're replacing `η`'s input, find and replace `!e`
 
 # Features
 
@@ -84,8 +85,8 @@ This means that your keyboard layout will not change, only what you output
 | Epsilon | <kbd>E</kbd> | `Ε` | `ε` |
 | Digamma | <kbd>V</kbd> | `Ϝ` | `ϝ` |
 | Zeta | <kbd>Z</kbd> | `Ζ` | `ζ` |
-| Eta | <kbd>Alt-E</kbd> | `Η` | `η` |
-| Theta | <kbd>T</kbd> + <kdb>H</kdb> | `Θ` | `θ` |
+| Eta | <kbd>Q</kbd> | `Η` | `η` |
+| Theta | <kbd>T</kbd> + <kbd>H</kbd> | `Θ` | `θ` |
 | Iota | <kbd>I</kbd> | `Ι` | `ι` |
 | Kappa | <kbd>K</kbd> | `Κ` | `κ` |
 | Lambda | <kbd>L</kbd> | `Λ` | `λ` |
@@ -96,17 +97,15 @@ This means that your keyboard layout will not change, only what you output
 | Pi | <kbd>P</kbd> | `Π` | `π` |
 | Rho | <kbd>R</kbd> | `Ρ` | `ρ` |
 | Medial Sigma | <kbd>S</kbd> | `Σ` | `σ` |
-| Final Sigma | <kbd>S</kbd> + <kbd>Space</kbd> or `Any Punctuation` |  | `ς` |
+| Final Sigma | <kbd>S</kbd> + <kbd>Space</kbd>/<kbd>Any Punctuation</kbd> |  | `ς` |
 | Upsilon | <kbd>U</kbd> or <kbd>Y</kbd> | `Υ` | `υ` |
 | Tau | <kbd>T</kbd> | `Τ` | `τ` |
 | Phi | <kbd>P</kbd> + <kbd>H</kbd> or <kbd>F</kbd> | `Φ` | `φ` |
-| Chi | <kbd>X</kbd> or <kbd>K</kbd> + <kbd>H</kbd> (`ΚΗ`) | `Χ` | `χ` |
-| Psi | <kbd>P</kbd> + <kbd>S</kbd> (`ΠΣ`) | `Ψ` | `ψ` |
-| Omega | <kbd>W</kbd> or <kbd>Alt</kbd> + <kbd>O</kbd> | `Ω` | `ω` |
+| Chi | <kbd>X</kbd> or <kbd>K</kbd> + <kbd>H</kbd> | `Χ` | `χ` |
+| Psi | <kbd>P</kbd> + <kbd>S</kbd> | `Ψ` | `ψ` |
+| Omega | <kbd>W</kbd> | `Ω` | `ω` |
 
 	p.s. Lowercase input = Lowercase output; Uppercase input = Uppercase output
-
-	p.p.s `η` is typed by pressing `e` while holding down `alt`
 ### Puncuation Table
 
 | Name | Input | Punctuation |
