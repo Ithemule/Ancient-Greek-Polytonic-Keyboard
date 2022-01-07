@@ -4,13 +4,32 @@ SendMode Input 	; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #EscapeChar か	; Keyboard WILL break if this is removed... allows you to use backticks (`)... if you need to use this character, search and replace EVERY other instance of this character using CRTL + H
 #SingleInstance Force	;Ensures no duplicate keyboards running
-Suspend, on	;Starts keyboard suspended, useful if you have keyboards set to start with computer, delete if you don't want
+Suspend, on	;Starts keyboard suspended, useful if you have keyboard set to start with computer, delete if you don't want
+Activated := 1
 
-^!g::Suspend  	; Press Ctrl+Alt+G to pause. Press it again to resume.
+^!g::
+Suspend
+If (Activated = 1) 
+{
+		MsgBox ,0, Greek Polytonic Keyboard, Keyboard Activated, .5
+		Activated = 2
+}	
+else If (Activated = 2) 
+{
+		MsgBox ,0, Greek Polytonic Keyboard, Keyboard Deactivated, 
+		Activated = 1
+}
+
+
+
+
 #InputLevel 100
 Backspace::SendEvent {Left}{Del}	;Allows you to delete ᾱ́  in one click, messes with ability to select and delete text (use Delete rather than Backspace when deleting highlighted text)
 
+
+
 #InputLevel 99
+
 
 a::SendEvent α		;alpha
 +a::SendEvent Α		;ALPHA
@@ -26,8 +45,8 @@ v::SendEvent ϝ		;digamma
 +v::SendEvent Ϝ		;DIGAMMA
 z::SendEvent ζ		;zeta
 +z::SendEvent Ζ		;ZETA
-!e::SendEvent η		;eta
-!+E::SendEvent Η		;ETA
+q::SendEvent η		;eta
++Q::SendEvent Η		;ETA
 i::SendEvent ι		;iota
 +i::SendEvent Ι		;IOTA
 k::SendEvent κ		;kappa
@@ -60,14 +79,8 @@ SendEvent Υ		;UPSILON
 Return
 x::SendEvent χ		;chi
 +x::SendEvent Χ		;CHI
-!o::
-w::
-SendEvent ω		;omega
-Return
-+!o::
-+w::
-SendEvent Ω		;OMEGA
-Return
+w::SendEvent ω		;omega
++w::SendEvent Ω		;OMEGA
 
 
 		;accent / character hotkeys
