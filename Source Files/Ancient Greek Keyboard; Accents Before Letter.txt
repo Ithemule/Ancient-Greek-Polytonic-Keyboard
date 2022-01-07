@@ -16,7 +16,7 @@ If (Activated = 1)
 }	
 else If (Activated = 2) 
 {
-		MsgBox ,0, Greek Polytonic Keyboard, Keyboard Deactivated, 
+		MsgBox ,0, Greek Polytonic Keyboard, Keyboard Deactivated, .5
 		Activated = 1
 }
 
