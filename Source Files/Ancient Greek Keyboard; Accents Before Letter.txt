@@ -19,7 +19,7 @@ else If (Activated = 2)
 		MsgBox ,0, Greek Polytonic Keyboard, Keyboard Deactivated, .5
 		Activated = 1
 }
-
+Return
 
 
 
@@ -178,6 +178,7 @@ Return
 :*?c:σ,::ς,				;with comma
 :*?c:σ·::ς·				;with Greek colon
 :*?c:σ;::ς;				;with Greek q. mark
+:*?c:σ{Enter}::ς{Enter}		;with Enter
 :*?:κσ::ξ			;xi
 :*?:ΚΣ::Ξ			;XI
 :*?:κh::χ			;chi

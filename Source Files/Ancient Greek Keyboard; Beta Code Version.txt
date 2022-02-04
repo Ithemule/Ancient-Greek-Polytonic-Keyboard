@@ -19,6 +19,9 @@ else If (Activated = 2)
 		MsgBox ,0, Greek Polytonic Keyboard, Keyboard Deactivated, .5
 		Activated = 1
 }
+Return
+
+
 
 #InputLevel 100
 Backspace::SendEvent {Left}{Del}	;Allows you to delete ᾱ́  in one click, messes with ability to select and delete text (use Delete rather than Backspace when deleting highlighted text)
@@ -174,6 +177,7 @@ Return
 :*?c:σ,::ς,				;with comma
 :*?c:σ·::ς·				;with Greek colon
 :*?c:σ;::ς;				;with Greek q. mark
+:*?c:σ{Enter}::ς{Enter}		;with Enter
 :*?:κσ::ξ			;xi
 :*?:ΚΣ::Ξ			;XI
 
