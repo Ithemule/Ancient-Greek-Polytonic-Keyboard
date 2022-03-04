@@ -20,12 +20,6 @@ With "[Ancient Greek Keyboard; Accents Before Letter.exe](https://github.com/Ith
 
 > e.x.: <kbd>´</kbd> + <kbd>α</kbd> = `ά`
 
-With "[Ancient Greek Keyboard; Beta Code Version.exe](https://github.com/Ithemule/Ancient-Greek-Polytonic-Keyboard/blob/main/Ancient%20Greek%20Keyboard%3B%20Beta%20Code%20Version.exe)", you will type as with the Greek Beta Code. 
-
-> e.x.: <kbd>α</kbd> + <kbd>/</kbd> = `ά`
->
-> [Beta Code Keymaps](https://en.wikipedia.org/wiki/Beta_Code#Greek_alphabet)
-
 
 ## 3: Activate
 It will start disabled, and you can activate or deactivate it at any time with <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd>
