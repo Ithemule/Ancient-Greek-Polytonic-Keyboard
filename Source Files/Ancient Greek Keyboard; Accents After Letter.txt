@@ -146,11 +146,11 @@ SendEvent -		;Macron + Space = -
 Return
 
 :*?c:~::
-SendEvent ῀		;Circumfrence Accent
+SendEvent ῀		;Circumflex Accent
 Return
 
 :*?c:῀ ::
-SendEvent ~		;Circumfrence Accent + Space = ~
+SendEvent ~		;Circumflex Accent + Space = ~
 Return
 
 :*?c:|::
@@ -203,7 +203,7 @@ Return
 SendEvent Ὰ
 Return
 
-:*?c:ια::
+:*?c:αι::
 SendEvent ᾳ
 Return
 
