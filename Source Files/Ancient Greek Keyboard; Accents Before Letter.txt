@@ -1,4 +1,4 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input 	; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
@@ -31,56 +31,56 @@ Backspace::SendEvent {Left}{Del}	;Allows you to delete ᾱ́  in one click, mess
 #InputLevel 99
 
 
-a::SendEvent α		;alpha
-+a::SendEvent Α		;ALPHA
-b::SendEvent β		;beta
-+b::SendEvent Β		;BETA
-g::SendEvent γ		;gamma
-+g::SendEvent Γ		;GAMMA
-d::SendEvent δ		;delta
-+d::SendEvent Δ		;DELTA
-e::SendEvent ε		;epsilon
-+e::SendEvent Ε		;EPSILON
-v::SendEvent ϝ		;digamma
-+v::SendEvent Ϝ		;DIGAMMA
-z::SendEvent ζ		;zeta
-+z::SendEvent Ζ		;ZETA
-q::SendEvent η		;eta
-+Q::SendEvent Η		;ETA
-i::SendEvent ι		;iota
-+i::SendEvent Ι		;IOTA
-k::SendEvent κ		;kappa
-+k::SendEvent Κ		;KAPPA
-l::SendEvent λ		;lambda
-+l::SendEvent Λ		;LAmBDA
-m::SendEvent μ		;mu
-+m::SendEvent Μ		;MU
-n::SendEvent ν		;nu
-+n::SendEvent Ν		;NU
-o::SendEvent ο		;omicron
-+o::SendEvent Ο		;OMICRON
-p::SendEvent π		;pi
-+p::SendEvent Π		;PI
-r::SendEvent ρ		;rho
-+r::SendEvent Ρ		;RHO
-s::SendEvent σ 		;sigma
-+s::SendEvent Σ		;SIGMA
-t::SendEvent τ		;tau
-+t::SendEvent Τ		;TAU
-f::SendEvent φ		;phi
-+f::SendEvent Φ		;PHI
-y::
-u::
+:*?c:a::SendEvent α		;alpha
+:*?c:A::SendEvent Α		;ALPHA
+:*?c:b::SendEvent β		;beta
+:*?c:B::SendEvent Β		;BETA
+:*?c:g::SendEvent γ		;gamma
+:*?c:G::SendEvent Γ		;GAMMA
+:*?c:d::SendEvent δ		;delta
+:*?c:D::SendEvent Δ		;DELTA
+:*?c:e::SendEvent ε		;epsilon
+:*?c:E::SendEvent Ε		;EPSILON
+:*?c:v::SendEvent ϝ		;digamma
+:*?c:V::SendEvent Ϝ		;DIGAMMA
+:*?c:z::SendEvent ζ		;zeta
+:*?c:Z::SendEvent Ζ		;ZETA
+:*?c:q::SendEvent η		;eta
+:*?c:Q::SendEvent Η		;ETA
+:*?c:i::SendEvent ι		;iota
+:*?c:I::SendEvent Ι		;IOTA
+:*?c:k::SendEvent κ		;kappa
+:*?c:K::SendEvent Κ		;KAPPA
+:*?c:l::SendEvent λ		;lambda
+:*?c:L::SendEvent Λ		;LAmBDA
+:*?c:m::SendEvent μ		;mu
+:*?c:M::SendEvent Μ		;MU
+:*?c:n::SendEvent ν		;nu
+:*?c:N::SendEvent Ν		;NU
+:*?c:x::SendEventξ		;Xi
+:*?c:X::SendEvent Ξ		;Xi
+:*?c:o::SendEvent ο		;omicron
+:*?c:O::SendEvent Ο		;OMICRON
+:*?c:p::SendEvent π		;pi
+:*?c:P::SendEvent Π		;PI
+:*?c:r::SendEvent ρ		;rho
+:*?c:R::SendEvent Ρ		;RHO
+:*?c:s::SendEvent σ 		;sigma
+:*?c:S::SendEvent Σ		;SIGMA
+:*?c:t::SendEvent τ		;tau
+:*?c:T::SendEvent Τ		;TAU
+:*?c:f::SendEvent φ		;phi
+:*?c:F::SendEvent Φ		;PHI
+:*?c:y::
+:*?c:u::
 SendEvent υ		;upsilon
 Return
-+y::
-+u::
+:*?c:Y::
+:*?c:U::
 SendEvent Υ		;UPSILON
 Return
-x::SendEvent χ		;chi
-+x::SendEvent Χ		;CHI
-w::SendEvent ω		;omega
-+w::SendEvent Ω		;OMEGA
+:*?c:w::SendEvent ω		;omega
+:*?c:W::SendEvent Ω		;OMEGA
 
 
 		;accent / character hotkeys
@@ -91,98 +91,95 @@ SendEvent ·		;Greek Colon / Semi-colon
 Return
 
 #:: SendEvent ʹ		;Keraia
-
-?::SendEvent か;		;Greek Question Mark		
-
-:*?:'::
-SendEvent ´		;Acute Accent
-Return
-
-:*?:` ::	
-SendEvent `		;Grave Acent
-Return
-
-:*?:]::
-SendEvent ᾿		;Smooth Breathing
-Return
-
-:*?:[::
-SendEvent ῾		;Rough Breathing
-Return
-
-:*?:"::
-SendEvent ¨		;Diaeresis
-Return
-
-:*?:-::
-SendEvent ˉ		;Macron
-Return
-
-:*?:~::
-SendEvent ῀		;Circumfrence Accent
-Return
-
-:*?:|::
-SendEvent ι		;Iota Subscript
-Return
-
-#InputLevel 98
-
 :*?:ʹ :: 
 SendEvent #		;Keraia + Space = #
 Return
 
-:*?:´  ::
+?::SendEvent か;		;Greek Question Mark		
+
+:*?c:'::
+SendEvent ´		;Acute Accent
+Return
+
+:*?c:´  ::
 SendEvent '		;Acute Accent + Space = '
 Return
 
-:*?:` ::
+:*?c:` ::		
+SendEvent `		;Grave Acent
+Return
+
+:*?c:` ::
 SendEvent `		;Grave Acent + Space = `
 Return
 
-:*?:᾿ ::
+:*?c:]::
+SendEvent ᾿		;Smooth Breathing
+Return
+
+:*?c:᾿ ::
 SendEvent ]		;Smooth Breathing + Space = ]
 Return
 
-:*?:῾ ::
+:*?c:[::
+SendEvent ῾		;Rough Breathing
+Return
+
+:*?c:῾ ::
 SendEvent ῾		;Rough Breathing + Space = [
 Return
 
-:*?:¨ ::
+:*?c:"::
+SendEvent ¨		;Diaeresis
+Return
+
+:*?c:¨ ::
 SendEvent "		;Diaeresis + Space = "
 Return
 
-:*?:ˉ ::
+:*?c:-::
+SendEvent ˉ		;Macron
+Return
+
+:*?c:ˉ ::
 SendEvent -		;Macron + Space = -
 Return
 
-:*?:῀ ::
+:*?c:~::
+SendEvent ῀		;Circumfrence Accent
+Return
+
+:*?c:῀ ::
 SendEvent ~		;Circumfrence Accent + Space = ~
 Return
 
-:*?:ι ::
+:*?c:|::
+SendEvent ι		;Iota Subscript
+Return
+
+:*?c:ι ::
 SendEvent |		;Iota Subscript + Space = |
 Return
+
+
 
 #InputLevel 0
 		;complicated consonants
 
-:*?:τh::θ			;theta
-:*?:ΤH::Θ			;THETA
-:*?:πh::φ			;phi
-:*?:ΠH::Φ			;PHI
-:*?:πσ::ψ			;psi
-:*?:ΠΣ::Ψ			;PSI
+:*?c:τh::θ			;theta
+:*?c:ΤH::Θ			;THETA
+:*?c:πh::φ			;phi
+:*?c:ΠH::Φ			;PHI
+:*?c:πσ::ψ			;psi
+:*?c:ΠΣ::Ψ			;PSI
 :*?c:σ ::ς{space}		;final sigmas:
 :*?c:σ.::ς.				;with period
 :*?c:σ,::ς,				;with comma
 :*?c:σ·::ς·				;with Greek colon
 :*?c:σ;::ς;				;with Greek q. mark
 :*?c:σ{Enter}::ς{Enter}		;with Enter
-:*?:κσ::ξ			;xi
-:*?:ΚΣ::Ξ			;XI
-:*?:κh::χ			;chi
-:*?:ΚH::Χ			;CHI
+:*?c:κh::χ			;chi
+:*?c:ΚH::Χ			;CHI
 
 
 #InputLevel 90
